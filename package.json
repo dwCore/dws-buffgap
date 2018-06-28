@@ -1,0 +1,28 @@
+{
+  "name": "@dwcore/dws-buffgap",
+  "version": "0.1.1",
+  "description": "Takes Two dwStreams and Finds The Gap (Difference) Between The Two and Spits It Out In ANSI Format.",
+  "contributors": [
+    "Jared Rice Sr. <jared@dwebs.io>",
+    "Distributed Webs Project, LLC. <labs@distributedwebs.org>"
+  ],
+  "main": "index.js",
+  "bin": {
+    "dwbg": "./bin.js"
+  },
+  "license": "MIT",
+  "scripts": {
+    "test": "standard"
+  },
+  "dependencies": {
+    "@dwcore/dws2": "dwcore/dws2#master",
+    "ansi-regex": "^2.0.0",
+    "buffer-from": "^1.0.0"
+  },
+  "devDependencies": {
+    "standard": "^7.1.2"
+  },
+  "publishConfig": {
+    "access": "public"
+  }
+}
